@@ -1,70 +1,165 @@
-@keyframes hoverbackground {
-  from {
-    background-color: rgba(10, 10, 10, 0.90);
-  }
-  to {
-    background-color: rgba(10, 10, 10, 0.60);
-  }
-}
-
-.icon {
-  width: 48.5vw;
-  height: 49.5vh;
-  display: inline-block;
-  border-width: 0.05vw;
-  border-color: black;
-  border-style: solid;
-  margin: 0;
-}
-
-body, html{
+body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.poster {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("postercreator.png");
+.img-icon {
+  border-radius: 20px;
+  width: 35vh;
+  padding: 10px;
 }
 
-.bgani {
-  background-image: url("soothing.gif");
-  background-position: center;
-  background-repeat: repeat;
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10vh;
+  background-color: #292f36;
+  color: #eff7f6;
+  transform: skewY(-3.5deg);
+  padding-top: 25vh;
+  margin-top: -20vh;
 }
 
-.memepage {
-  background-image: url("starwars.gif");
-  background-position: center;
-  background-repeat: repeat;
+.intro > * {
+  transform: skewY(3.5deg);
 }
 
-.hoverbg {
-  background-color: rgba(10, 10, 10, 0.90);
+.focus-cont {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro > .text {
+  margin-top: 8vh;
+  margin-left: -10vw;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: calc(25vh + 2vw);
+  padding-bottom: calc(5vh + 2vw);
+  margin-top: -20vh;
+  background-color: #eff7f6;
   text-align: center;
-  font-size: 10vh;
 }
 
-.hoverbg:hover {
-  animation-name: hoverbackground;
-  animation-duration: .3s;
-  animation-fill-mode: forwards;
-  animation-direction: normal;
-
+.social > div {
+  width: 33.34vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.particles {
-
-  background-image: url("particles.gif");
-  background-position: center;
-  background-repeat: repeat;
+.social > div > div > a {
+  color: #53687e;
+  font-size: 25px;
 }
 
-.hoverbg a {
-  color: white;
+.social > .github {
+  border-style: solid;
+  border-width: 0px;
+  border-right-width: 2px;
+  border-color: #292f36;
+}
+
+.social > .email {
+  border-style: solid;
+  border-width: 0px;
+  border-left-width: 2px;
+  border-color: #292f36;
+}
+
+.projects {
+  text-align: center;
+  overflow: hidden;
+  background-color: #292f36;
+  color: #eff7f6;
+  padding: 5vh 2vw;
+}
+
+.projects-header > .title {
+  font-size: 45px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.projects-header > .desc {
+  font-size: 27px;
+}
+
+.projects > .row {
+  display: flex;
+  justify-content: center;
+}
+
+.row > * {
+  width: 50vw;
+  margin: 0 1vw;
+}
+
+.row > * > .desc {
+  font-size : 25px;
+}
+
+.row > * > .title {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bekit {
+  color: green;
+}
+
+.netplan {
+  color: #4242ff;
+}
+
+.jscalc {
+  color: yellow;
+}
+
+.lang {
+  font-size: 20px;
+}
+
+.lang > img {
+  width: 12px;
+}
+
+.title > a {
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #dddddd;
+}
+
+p {
+  margin: 10px 0px;
+  padding: 0px;
+}
+
+.name {
+  font-size: 65px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.desc {
+  font-size: 35px;
+  line-height: 1.6;
+}
+
+.service {
+  font-size: 45px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.spacer {
+  height: 7vh;
 }

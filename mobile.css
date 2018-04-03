@@ -1,0 +1,133 @@
+.intro {
+  display: block;
+  text-align: center;
+}
+
+.intro > div {
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+}
+
+.focus-cont {
+  display: block;
+  text-align: center;
+}
+
+.intro > .text {
+  margin: 5vh 0 0 0;
+}
+
+.social {
+  display: block;
+  text-align: center;
+  padding-top: 23vh;
+  padding-bottom: 3vh;
+}
+
+.social > div {
+  width: 80vw;
+  height: auto;
+  padding: 4vh 0 4vh 0;
+  margin: 0 10vw 0 10vw;
+}
+
+.social > div > div > a {
+  font-size: 60px;
+}
+
+.social > .github {
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 2px;
+  border-color: #292f36;
+}
+
+.social > .email {
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 2px;
+  border-color: #292f36;
+}
+
+.projects {
+  padding: 5vh 0vw;
+}
+
+.projects-header > .desc {
+  font-size: 60px;
+  padding: 30px;
+}
+
+.row > * > .desc {
+  font-size: 60px;
+}
+
+.projects > .row {
+  display: block;
+  text-align: center;
+}
+
+.row > div {
+  width: 70vw;
+  margin: 0 15vw;
+  padding: 5vh 0;
+}
+
+.projects > .desc {
+  padding: 0;
+  margin: 0 0 -2vh 0;
+  font-size: 75px;
+}
+
+.projects-header > .title {
+  font-size: 75px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.row > * > .title {
+  font-size: 70px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.row > div {
+  border-style: solid;
+  border-width: 0px;
+  border-color: #eff7f6;
+}
+
+.row > .top {
+  border-bottom-width: 2px;
+}
+
+.row > .bottom {
+  border-top-width: 2px;
+}
+
+.lang {
+  font-size: 40px;
+}
+
+.lang > img {
+  width: 30px;
+}
+
+p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.name {
+  font-size: 95px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.desc {
+  font-size: 65px;
+  line-height: 1.6;
+}
+
+.service {
+  font-size: 80px;
+  font-family: 'Oswald', sans-serif;
+}
